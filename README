@@ -1,0 +1,14 @@
+# GO-WASM ?
+
+Does it work? is it ready?
+
+## Natively generate wasm binary
+
+```bash
+GOOS=js GOARCH=wasm go build anime.go -o anime-naive.wasm anime.go
+```
+
+default loader script comes from https://github.com/golang/go/blob/master/misc/wasm/wasm_exec.js
+
+
+## using `tinygo`
